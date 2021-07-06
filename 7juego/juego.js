@@ -127,7 +127,7 @@
 
         ganoElJuego() {
           //swal('Ganaste el juego!!!')   swal don devuelve una promesa
-          swal('Platzi', 'Felicitaciones, ganaste el juego', 'success')
+          swal('Heeeey', 'Felicitaciones, ganaste el juego', 'success')
             .then(this.inicializar)     //esta es una forma prolija de escribir la promesa, para evitar error de this apuntando a window usamos bind
          /* .then(() => {
                this.inicializar()
@@ -136,7 +136,7 @@
 
         perdioElJuego() {
           //swal('Ganaste el juego!!!')   swal don devuelve una promesa
-          swal('Platzi', 'Lo lamentamos, perdiste :( ', 'error')
+          swal('Huuuuuy', 'Lo lamentamos, perdiste :( ', 'error')
           .then(() => {
             this.eliminarEventosClick()
             this.inicializar()
